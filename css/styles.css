@@ -29,6 +29,7 @@ body {
   color: var(--prymary-text-color);
 }
 
+/* index */
 /* header */
 /* logo */
 .logo {
@@ -46,6 +47,7 @@ body {
   color: var(--title-text-color);
 }
 /* logo */
+
 /* навигация */
 
 .links-nav-text {
@@ -96,6 +98,7 @@ body {
   background-color: var(--prymary-white-color);
 }
 /* section1 */
+
 /* section2 */
 .text-hidden {
   position: absolute;
@@ -120,6 +123,7 @@ body {
   line-height: 1.2;
 }
 /* section2 */
+
 /* section3 */
 .work-title {
   font-weight: 700;
@@ -127,6 +131,7 @@ body {
   line-height: 1.2;
 }
 /* section3 */
+
 /* section4 */
 .teams-title {
   font-weight: 700;
@@ -144,8 +149,6 @@ body {
   line-height: 1.2;
 }
 
-.teams-image {
-}
 .teams-text {
   color: var(--title-text-color);
   font-size: 16px;
@@ -176,5 +179,7 @@ body {
 .contact:focus {
   color: var(--accent-color);
 }
-
 /* footer */
+/* index */
+
+/* portfolio */
