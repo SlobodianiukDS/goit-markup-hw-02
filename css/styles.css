@@ -29,6 +29,7 @@ background-colors: #F5F4FA;
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--prymary-text-color);
+  font-size: 14px;
   line-height: 1.2;
 }
 
@@ -55,8 +56,6 @@ body {
 
 .links-nav-text {
   font-weight: 500;
-  font-size: 14px;
-
   letter-spacing: 0.02em;
   color: var(--prymary-text-color);
 }
@@ -66,8 +65,6 @@ body {
 }
 .links-contact-text {
   font-weight: 500;
-  font-size: 14px;
-
   color: var(--title-text-color);
 }
 .links-contact-text:hover,
@@ -85,19 +82,22 @@ body {
 .title {
   font-weight: 900;
   font-size: 44px;
+  text-transform: uppercase;
 }
 .button {
+  font-family:'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
-
   color: var(--prymary-white-color);
   background-color: var(--accent-color);
   cursor: pointer;
+  border-radius: 4px;
+  line-height: 1.2;
 }
 .button:hover,
 .button:focus {
-  color: var(--accent-color);
-  background-color: var(--prymary-white-color);
+  background-color: background: #188CE8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 /* section1 */
 
@@ -116,11 +116,10 @@ body {
 
 .tittle {
   font-weight: 700;
-  font-size: 14px;
+  text-transform: uppercase;
 }
 .text {
   font-weight: 400;
-  font-size: 14px;
 }
 /* section2 */
 
@@ -159,7 +158,6 @@ body {
 }
 .contact {
   font-weight: 400;
-  font-size: 14px;
 }
 .contact-adres {
   color: var(--prymary-white-color);
@@ -179,14 +177,20 @@ body {
 
 /* portfolio */
 .filter-btn {
+  font-family:'Roboto', sans-serif; ;
   font-style: normal;
   font-weight: 500;
+  font-size: 16px;
   background-color: var(--background-color-grey);
+  border-radius: 4px;
+  cursor: pointer;
+  line-height: 1.2;
 }
 .filter-btn:hover,
 .filter-btn:focus {
   color: var(--prymary-white-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .works-name {
   font-weight: 700;
@@ -197,3 +201,4 @@ body {
   font-size: 16px;
   color: var(--title-text-color);
 }
+/* portfolio */
