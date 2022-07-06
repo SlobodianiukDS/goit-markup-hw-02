@@ -30,7 +30,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--prymary-text-color);
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.142;
 }
 
 /* index */
@@ -40,6 +40,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
+  line-height: 1.192;
   color: var(--accent-color);
 }
 
@@ -82,18 +83,23 @@ body {
 .title {
   font-weight: 900;
   font-size: 44px;
+  line-height: 1.36;
   text-transform: uppercase;
+  color: var(--prymary-white-color);
+  background-color: var(--background-color-night);
 }
 .button {
   font-family:'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
+  line-height: 1.875;
   color: var(--prymary-white-color);
   background-color: var(--accent-color);
   cursor: pointer;
   border-radius: 4px;
   line-height: 1.2;
 }
+line-height: 
 .button:hover,
 .button:focus {
   background-color: background: #188CE8;
@@ -116,6 +122,7 @@ body {
 
 .tittle {
   font-weight: 700;
+  line-height: 1.14;
   text-transform: uppercase;
 }
 .text {
@@ -127,6 +134,7 @@ body {
 .work-title {
   font-weight: 700;
   font-size: 36px;
+  line-height: 1.66;
 }
 /* section3 */
 
@@ -134,19 +142,19 @@ body {
 .teams-title {
   font-weight: 700;
   font-size: 36px;
+  line-height: 1.66;
 }
 .teams {
   font-weight: 400;
   font-size: 16px;
+  line-height: 1.875;
 }
 .teams-name {
   font-weight: 500;
-  font-size: 16px;
 }
 
 .teams-text {
   color: var(--title-text-color);
-  font-size: 16px;
 }
 /* section4 */
 /* main */
@@ -181,6 +189,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.875;
   background-color: var(--background-color-grey);
   border-radius: 4px;
   cursor: pointer;
@@ -199,6 +208,7 @@ body {
 .works-decrition {
   font-weight: 400;
   font-size: 16px;
+  line-height: 1.875;
   color: var(--title-text-color);
 }
 /* portfolio */
